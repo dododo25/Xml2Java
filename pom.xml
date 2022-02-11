@@ -8,6 +8,20 @@
     <version>1.0.1</version>
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Xml2Java</name>
+    <description>A simple mapping tool for converting XML nodes into Java objects</description>
+
+    <developers>
+        <developer>
+            <name>Dmitrij Terekhov</name>
+            <email>terekhov160997@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/bready/Xml2Java.git</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.reflections</groupId>
@@ -31,5 +45,26 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
+                <configuration>
+                    <message>Creating site for ${project.version}</message>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>site</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
