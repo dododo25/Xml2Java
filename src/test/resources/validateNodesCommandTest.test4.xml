@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <initMappingsCommandItem id="1">
+        <cValue1>
+            <ref id="1">
+                <invalid/>
+            </ref>
+        </cValue1>
+    </initMappingsCommandItem>
+</dataset>

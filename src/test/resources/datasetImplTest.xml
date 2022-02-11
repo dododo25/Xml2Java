@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <commonItem id="1" value="test #1"/>
+    <commonItem id="2" value="test #2"/>
+    <commonItem id="3" value="alternative #1"/>
+</dataset>

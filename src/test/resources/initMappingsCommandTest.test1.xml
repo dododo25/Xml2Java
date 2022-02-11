@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <initMappingsCommandItem id="1" pValue1="0" rValue1="0">
+        <cValue1>
+            <ref id="2"/>
+            <ref id="3"/>
+        </cValue1>
+    </initMappingsCommandItem>
+</dataset>
